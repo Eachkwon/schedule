@@ -11,10 +11,10 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
-SECRET_KEY = 'SPARTA'
+SECRET_KEY = 
 
-client = MongoClient('mongodb+srv://ksu9704:rhdtkddnr@cluster0.fob0cqw.mongodb.net/Cluster0?retryWrites=true&w=majority', tlsCAFile=certifi.where())
-db = client.dbsparta
+client = 
+db = 
 
 
 @app.route('/')
